@@ -1,0 +1,24 @@
+{
+    "source": "src/index.ts",
+    "module": "dist/energy-devices-power-graph-card.js",
+    "targets": {
+        "module": {
+            "includeNodeModules": true
+        }
+    },
+    "scripts": {
+        "watch": "parcel watch",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "parcel": "^2.12.0"
+    },
+    "dependencies": {
+        "@swc/helpers": "^0.5.13",
+        "apexcharts": "^3.54.1",
+        "custom-card-helpers": "^1.9.0",
+        "d3": "^7.9.0",
+        "home-assistant-js-websocket": "^9.4.0",
+        "lit": "^3.2.1"
+    }
+}
